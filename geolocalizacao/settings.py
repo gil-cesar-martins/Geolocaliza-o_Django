@@ -114,8 +114,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-YELP_API_KEY = 'nP7JXPcgFJ7x8W_eIPtjlm5lwAQ5lvz63RXxb5tVT9skBtbUqFKDIgno0dOMv_tga_OanBTI31UCFKrHrCdhuzg7g6smlsL2fEFSLGxauqxpMzUmnNL0f1DkjpMaYnYx'
+#Aqui é onde vc vai criar uma CONST e colar a API_KY fornecida pelo yelp
+YELP_API_KEY = '<COLE AQUI A API_KEY>'
 
 GEOIP_PATH = os.path.join(BASE_DIR, 'geoip')
 
